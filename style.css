@@ -1,0 +1,182 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+
+}
+
+.logo-container {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 600px;
+    float: left;
+}
+
+.logosquare {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100px;
+    height: 25px;
+    background-color: white;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial;
+    float: left;
+}
+
+.title {
+    margin-left: 5px;
+    color: #fff;
+    font-size: 25px;
+    font-family: Arial;
+    float: left;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+
+}
+
+.menu ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 35px;
+    list-style: none;
+    font-size: 15px;
+
+}
+.menu ul li.active{
+    background-color: #f85a3e;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.menu ul li:hover {
+    background-color: #f85a3e;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f85a3e;
+    color: #fff;
+    padding: 40px 0;
+
+}
+
+.content-home {
+    margin-left: 100px;
+    width: 50%;
+}
+
+.content-home h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.content-home p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.content-home button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.content img {
+margin-right: 200px;
+    float: left;
+
+}
+
+.articles {
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto 10px;
+    float: left;
+    color: #333;
+}
+
+.text {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.footer {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    font-size: 24px;
+    text-decoration: none;
+}
