@@ -73,7 +73,8 @@ ul {
     font-size: 15px;
 
 }
-.menu ul li.active{
+
+.menu ul li.active {
     background-color: #f85a3e;
 }
 
@@ -125,7 +126,7 @@ ul {
 }
 
 .content img {
-margin-right: 200px;
+    margin-right: 200px;
     float: left;
 
 }
